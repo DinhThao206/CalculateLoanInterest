@@ -9,9 +9,9 @@ public class CalculateLoanInterest {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Số tiền cần vay: ");
         money = scanner.nextDouble();
-        System.out.println("Enter number of months: ");
+        System.out.println("Nhập số tháng: ");
         month = scanner.nextInt();
-        System.out.println("Enter annual interest rate in percentage: ");
+        System.out.println("Nhập lãi suất hàng năm theo phần trăm: ");
         interestRate = scanner.nextDouble();
         double totalInterest = 0;
         for (int i = 0; i < month; i++) {
